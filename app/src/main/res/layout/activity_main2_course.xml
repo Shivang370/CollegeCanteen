@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Course"
+    android:background="@drawable/pavbhaji"
+    tools:layout_editor_absoluteY="81dp">
+
+    <CheckBox
+        android:id="@+id/Snacks1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="19dp"
+        android:text="Samosa"
+        android:textColor="@color/ColorBlack"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titleS" />
+
+    <CheckBox
+        android:id="@+id/Snacks2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sandwich"
+        android:textColor="@color/ColorBlack"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/Snacks1"
+        app:layout_constraintTop_toBottomOf="@+id/Snacks1" />
+
+    <CheckBox
+        android:id="@+id/Snacks3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Patties"
+        android:textColor="@color/ColorBlack"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/Snacks2"
+        app:layout_constraintTop_toBottomOf="@+id/Snacks2" />
+
+    <CheckBox
+        android:id="@+id/Snacks4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bread Roll"
+        android:textColor="@color/ColorBlack"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/Snacks3"
+        app:layout_constraintTop_toBottomOf="@+id/Snacks3" />
+
+    <CheckBox
+        android:id="@+id/South1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Idli Dosa"
+        android:textColor="@color/ColorBlack"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titleSO" />
+
+    <CheckBox
+        android:id="@+id/South2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Upma"
+        android:textColor="@color/ColorBlack"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/South1"
+        app:layout_constraintTop_toBottomOf="@+id/South1" />
+
+    <CheckBox
+        android:id="@+id/South3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Uttapam"
+        android:textColor="@color/ColorBlack"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/South2"
+        app:layout_constraintTop_toBottomOf="@+id/South2" />
+
+    <CheckBox
+        android:id="@+id/South4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sambar vada"
+        android:textColor="@color/ColorBlack"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/South3"
+        app:layout_constraintTop_toBottomOf="@+id/South3" />
+
+    <CheckBox
+        android:id="@+id/North1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="13dp"
+        android:text="Chili Potato"
+        android:textColor="@color/ColorBlack"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/N2"
+        app:layout_constraintStart_toStartOf="@+id/North2" />
+
+    <CheckBox
+        android:id="@+id/North2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pav bhaji"
+        android:textColor="@color/ColorBlack"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/North3"
+        app:layout_constraintTop_toBottomOf="@+id/North1" />
+
+    <CheckBox
+        android:id="@+id/North3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aloo Paratha"
+        android:textColor="@color/ColorBlack"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/N3"
+        app:layout_constraintTop_toBottomOf="@+id/N2" />
+
+    <CheckBox
+        android:id="@+id/North4"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="1dp"
+        android:text="Fried Rice"
+        android:textColor="@color/ColorBlack"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/S4"
+        app:layout_constraintStart_toStartOf="@+id/North3"
+        app:layout_constraintTop_toBottomOf="@+id/North3" />
+
+    <CheckBox
+        android:id="@+id/Drinks1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:text="Hot Coffee"
+        android:textColor="@color/ColorBlack"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/D1"
+        app:layout_constraintStart_toStartOf="@+id/Drinks2" />
+
+    <CheckBox
+        android:id="@+id/Drinks2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tea"
+        android:textColor="@color/ColorBlack"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/Drinks3"
+        app:layout_constraintTop_toBottomOf="@+id/Drinks1" />
+
+    <CheckBox
+        android:id="@+id/Drinks3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cold Coffee"
+        android:textColor="@color/ColorBlack"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/D2"
+        app:layout_constraintTop_toBottomOf="@+id/Drinks2" />
+
+    <CheckBox
+        android:id="@+id/Drinks4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:text="Cold Drink"
+        android:textColor="@color/ColorBlack"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/Drinks3"
+        app:layout_constraintTop_toBottomOf="@+id/Drinks3" />
+
+    <TextView
+        android:id="@+id/S1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="11dp"
+        android:layout_marginLeft="11dp"
+        android:layout_marginBottom="1dp"
+        android:text="07 Rs."
+        android:textColor="#191970"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/Snacks2"
+        app:layout_constraintStart_toEndOf="@+id/Snacks2" />
+
+    <TextView
+        android:id="@+id/S2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        android:text="10 Rs."
+        android:textStyle="bold"
+        android:textColor="#191970"
+        app:layout_constraintBottom_toBottomOf="@+id/Snacks2"
+        app:layout_constraintEnd_toEndOf="@+id/S3" />
+
+    <TextView
+        android:id="@+id/S3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="9dp"
+        android:layout_marginLeft="9dp"
+        android:layout_marginBottom="2dp"
+        android:text="15 Rs."
+        android:textStyle="bold"
+        android:textColor="#191970"
+        app:layout_constraintBottom_toTopOf="@+id/Snacks4"
+        app:layout_constraintStart_toEndOf="@+id/Snacks4" />
+
+    <TextView
+        android:id="@+id/N1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_marginBottom="1dp"
+        android:text="20 Rs."
+        android:textStyle="bold"
+        android:textColor="#191970"
+        app:layout_constraintBottom_toBottomOf="@+id/North1"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/N2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="13dp"
+        android:text="25 Rs."
+        android:textStyle="bold"
+        android:textColor="#191970"
+        app:layout_constraintBottom_toTopOf="@+id/N3"
+        app:layout_constraintStart_toEndOf="@+id/North3" />
+
+    <TextView
+        android:id="@+id/N3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginBottom="32dp"
+        android:text="15 Rs."
+        android:textStyle="bold"
+        android:textColor="#191970"
+        app:layout_constraintBottom_toBottomOf="@+id/Snacks4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/S2" />
+
+    <TextView
+        android:id="@+id/N4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="13dp"
+        android:layout_marginRight="13dp"
+        android:text="25 Rs."
+        android:textStyle="bold"
+        android:textColor="#191970"
+        app:layout_constraintBottom_toBottomOf="@+id/North4"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/SO1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginBottom="12dp"
+        android:text="30 Rs."
+        android:textStyle="bold"
+        android:textColor="#191970"
+        app:layout_constraintBottom_toTopOf="@+id/SO2"
+        app:layout_constraintStart_toStartOf="@+id/SO2" />
+
+    <TextView
+        android:id="@+id/SO2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        android:layout_marginBottom="13dp"
+        android:text="35 Rs."
+        android:textStyle="bold"
+        android:textColor="#191970"
+        app:layout_constraintBottom_toTopOf="@+id/SO3"
+        app:layout_constraintEnd_toEndOf="@+id/SO3" />
+
+    <TextView
+        android:id="@+id/SO3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="21dp"
+        android:layout_marginLeft="21dp"
+        android:text="25 Rs."
+        android:textStyle="bold"
+        android:textColor="#191970"
+        app:layout_constraintBottom_toTopOf="@+id/South4"
+        app:layout_constraintStart_toEndOf="@+id/South3" />
+
+    <TextView
+        android:id="@+id/SO4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="30 Rs."
+        android:textStyle="bold"
+        android:textColor="#191970"
+        app:layout_constraintBottom_toBottomOf="@+id/South4"
+        app:layout_constraintEnd_toEndOf="@+id/SO3"
+        app:layout_constraintStart_toEndOf="@+id/SO3" />
+
+    <TextView
+        android:id="@+id/D1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="13dp"
+        android:layout_marginRight="13dp"
+        android:text="10 Rs."
+        android:textStyle="bold"
+        android:textColor="#191970"
+        app:layout_constraintBottom_toBottomOf="@+id/SO1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/SO1" />
+
+    <TextView
+        android:id="@+id/D2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:text="05 Rs."
+        android:textStyle="bold"
+        android:textColor="#191970"
+        app:layout_constraintBottom_toTopOf="@+id/Drinks3"
+        app:layout_constraintEnd_toStartOf="@+id/D3"
+        app:layout_constraintStart_toStartOf="@+id/D3" />
+
+    <TextView
+        android:id="@+id/D3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:text="25 Rs."
+        android:textStyle="bold"
+        android:textColor="#191970"
+        app:layout_constraintBottom_toTopOf="@+id/D4"
+        app:layout_constraintEnd_toEndOf="@+id/D4"
+        app:layout_constraintStart_toEndOf="@+id/D4" />
+
+    <TextView
+        android:id="@+id/D4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="19dp"
+        android:layout_marginRight="19dp"
+        android:text="12 Rs."
+        android:textStyle="bold"
+        android:textColor="#191970"
+        app:layout_constraintBottom_toBottomOf="@+id/Drinks4"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/S4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="14dp"
+        android:text="15 Rs."
+        android:textStyle="bold"
+        android:textColor="#191970"
+        app:layout_constraintStart_toEndOf="@+id/Snacks4"
+        app:layout_constraintTop_toTopOf="@+id/Snacks4" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginBottom="6dp"
+        android:background="@drawable/shape"
+        android:onClick="onclickbtn"
+        android:text="Place Order"
+        android:textStyle="bold"
+        android:textColor="@color/ColorBlack"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/SO4" />
+
+    <TextView
+        android:id="@+id/titleS"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginLeft="18dp"
+        android:text="SNACKS"
+        android:textSize="21dp"
+        android:textColor="#b22222"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/titleN"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/titleN" />
+
+    <TextView
+        android:id="@+id/titleN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="41dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="NORTH-INDIAN"
+        android:textSize="21dp"
+        android:textStyle="bold"
+        android:textColor="#b22222"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/titleSO"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="51dp"
+        android:text="SOUTH-INDIAN"
+        android:textColor="#b22222"
+        android:textSize="21dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/S4" />
+
+    <TextView
+        android:id="@+id/titleD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="7dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginBottom="17dp"
+        android:text="DRINKS"
+        android:textColor="#b22222"
+        android:textSize="21dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/Drinks1"
+        app:layout_constraintStart_toStartOf="@+id/Drinks1" />
+</android.support.constraint.ConstraintLayout>

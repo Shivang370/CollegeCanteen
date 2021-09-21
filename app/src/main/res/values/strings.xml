@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">CANTEEN</string>
+    <string name="activity_name">WELCOME</string>
+    <string name="activity2_name"> FOOD HUB </string>
+    <string name="activity3_name"> REVIEW ORDER!!</string>
+    <string name="activity4_name"> REVISIT FOOD HUB !!</string>
+    <string-array name="Ratings">
+        <item> Rate Now!! </item>
+        <item>Good</item>
+        <item>Average</item>
+        <item>Awesome</item>
+    </string-array>
+</resources>
